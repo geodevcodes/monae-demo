@@ -72,7 +72,7 @@ export default function Showcase() {
           <div className="flex justify-center md:justify-end">
             <Image
               src="/showcase1.png"
-              alt="GTWorld-Clone phone mockup"
+              alt="Monae mockup"
               width={250}
               height={250}
               className="w-full max-w-sm md:max-w-xs"
