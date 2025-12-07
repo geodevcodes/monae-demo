@@ -53,7 +53,7 @@ export default function Showcase() {
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Monae is designed for "Gen Z and Young Professionals in Africa" to
               effortlessly track spending, crush budgeting goals, and build
-              lasting, healthy money habits—all through a simple, human-like
+              lasting, healthy money habits, all through a simple, human-like
               chat.
             </p>{" "}
             {/* Updated description to target audience and value */}
