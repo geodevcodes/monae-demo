@@ -14,7 +14,7 @@ export default function Showcase() {
                 src={"/brandlogo.png"}
                 width={100}
                 height={100}
-                alt="Monae brand logo image" // Updated Alt Text
+                alt="Monae brand logo image"
                 priority
                 className="w-full h-10 object-cover"
                 placeholder="blur"
@@ -51,8 +51,8 @@ export default function Showcase() {
             </h1>{" "}
             {/* Updated H1 to reflect AI focus */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Monae is designed for **Gen Z and Young Professionals in Africa**
-              to effortlessly track spending, crush budgeting goals, and build
+              Monae is designed for "Gen Z and Young Professionals in Africa" to
+              effortlessly track spending, crush budgeting goals, and build
               lasting, healthy money habits—all through a simple, human-like
               chat.
             </p>{" "}
@@ -75,8 +75,8 @@ export default function Showcase() {
 
           <div className="flex justify-center md:justify-end">
             <Image
-              src="/showcase1.png"
-              alt="Monae app mockup showing conversational AI interface" // Updated Alt Text
+              src="/showcase3.png"
+              alt="Monae app mockup showing dashboard interface"
               width={250}
               height={250}
               className="w-full max-w-sm md:max-w-xs"
@@ -95,7 +95,7 @@ export default function Showcase() {
           {/* Feature 1: Conversational AI Chat Interface */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">💬</div> {/* New Emoji */}
+              <div className="text-5xl">💬</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Conversational AI Chat
@@ -110,7 +110,7 @@ export default function Showcase() {
           {/* Feature 2: Real-Time Spend Tracking */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">⏰</div> {/* New Emoji */}
+              <div className="text-5xl">⏰</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Real-Time Spend Tracking
@@ -125,7 +125,7 @@ export default function Showcase() {
           {/* Feature 3: Emotional-Aware Nudges & Budgeting */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">🎯</div> {/* New Emoji */}
+              <div className="text-5xl">🎯</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Smart Budgeting & Nudges
@@ -140,7 +140,7 @@ export default function Showcase() {
           {/* Feature 4: Smart Insights */}
           <div className="text-center">
             <div className="flex justify-center mb-6">
-              <div className="text-5xl">💡</div> {/* New Emoji */}
+              <div className="text-5xl">💡</div>
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-3">
               Personalized Financial Insights
@@ -199,11 +199,10 @@ export default function Showcase() {
         </div>
         <div className="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-lg max-w-5xl mx-auto">
           <p className="text-gray-700 italic">
-            **Monae** is the solution: A simple, conversational AI that
-            understands **you** and your **local financial world**, making money
-            management a habit, not a chore.
+            <span className="font-bold">Monae</span> is the solution: A simple,
+            conversational AI that understands "you" and your "local financial
+            world", making money management a habit, not a chore.
           </p>{" "}
-          {/* Updated Blockquote */}
         </div>
       </section>
 
@@ -216,16 +215,16 @@ export default function Showcase() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
           {/* Core Feature 1: Chat Interface */}
           {[
-            { label: "AI Chat Interface", imageUrl: "/showcase1.png" },
-            { label: "Expense Categorization", imageUrl: "/showcase2.png" },
-            { label: "Budget Over-Limit Alert", imageUrl: "/showcase3.png" },
-            { label: "Secure Biometric Login", imageUrl: "/showcase1.png" },
+            { label: "Onboading", imageUrl: "/showcase1.png" },
+            { label: "Account Dashboard", imageUrl: "/showcase3.png" },
+            { label: "Budget Over-Limit Alert", imageUrl: "/showcase4.png" },
+            { label: "Analytics", imageUrl: "/showcase5.png" },
           ].map((screen, idx) => (
             <div key={idx} className="text-center">
               <div className="rounded-3xl lg:aspect-[9/19] mb-2 flex items-center justify-center">
                 <Image
                   src={screen.imageUrl}
-                  alt={`Monae app screen: ${screen.label}`} // Updated Alt Text
+                  alt={`Monae app screen: ${screen.label}`}
                   width={200}
                   height={200}
                   className="-full"
@@ -244,11 +243,11 @@ export default function Showcase() {
         </h2>{" "}
         {/* Updated Section Title */}
         <p className="text-lg text-gray-600 leading-relaxed">
-          Monae is not just another tracker—it's an assistant built with
-          **bank-grade security** (End-to-end encryption, biometric login) and
-          **local intelligence** to ensure a seamless, secure, and highly
-          relevant financial experience for young professionals starting their
-          wealth journey in Nigeria.
+          Monae is not just another tracker. It's an assistant built with
+          "bank-grade security" (End-to-end encryption, biometric login) and
+          "local intelligence" to ensure a seamless, secure, and highly relevant
+          financial experience for young professionals starting their wealth
+          journey in Nigeria.
         </p>{" "}
         {/* Updated Content */}
       </section>
@@ -269,9 +268,7 @@ export default function Showcase() {
               Terms of Use
             </a>
           </div>
-          <p className="text-sm text-gray-500">
-            Made with 💚 by Rasheed Olatunde
-          </p>
+          <p className="text-sm text-gray-500">Made with 💚 by Monae teams</p>
         </div>
       </footer>
     </div>
